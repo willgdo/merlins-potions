@@ -1,2 +1,2 @@
-# Merlins-Potions
+# Merlins Potions
 Page for practice of React
