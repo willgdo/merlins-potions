@@ -1,0 +1,89 @@
+footer {
+    background-color: #E6E6E6;
+    width: 100%;
+    height: 300px;
+    clear: both;
+}
+
+.wrapper-media {
+    margin-left: 5%;
+
+}
+
+.wrapper-media {
+    width: 55%;
+    height: 90%;
+    float: left;
+}
+
+.wrapper-newsletter {
+    width: 35%;
+    height: 90%;
+    float: left;
+}
+
+.newsletter {
+    margin: 5% 0% 0% 10%;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-style: italic;
+    color: rgb(82, 80, 80);
+    font-size: 0.8em;
+    padding: 20px 10px 50px 30px;
+}
+
+form input {
+    width: 300px;
+    height: 30px;
+    border-color: #4d4d4d;
+    padding-left: 4%;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 8px 20px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    border-color: #d73a1e ;
+    background-color: #d73a1e;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+form button:hover {
+    opacity: 0.8;
+}
+
+.page-links {
+    margin-top: 50px;
+}
+
+.page-links a:hover {
+    text-decoration: underline;
+}
+
+.page-links a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #d73a1e;
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-right: 40px;
+}
+
+.wrapper-media img {
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.wrapper-media p {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 35px;
+    color: gray;
+}

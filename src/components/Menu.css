@@ -1,0 +1,58 @@
+.Menu {
+    background-color: #523468;
+    width: 100%;
+    height: 100px;
+}
+
+.Nav-Menu {
+    margin-left: 5%;
+    width: 70%;
+    float: left;
+    margin-top: 40px;
+
+}
+
+nav a {
+    font-size: 1.2em;
+    color: #fff;
+    padding: 10px 50px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+nav a:hover {
+   background-color: #422A53;    
+}
+
+nav span{
+    color: #fff;
+    font-size: 0.8em;  
+}
+
+.Login {
+    width:20%;
+    float: right;
+    margin-top: 40px;
+    padding-right: 40px;
+}
+
+.Login div{
+    font-size: 1.2em;
+    color: #fff;
+    float: left;
+    margin-right: 20px;
+    font-style: italic;
+}
+
+.Enter {
+    cursor: pointer;
+}
+
+.Enter:hover {
+    text-decoration: underline;
+}
+
+.Login span {
+    color: #c3aada;
+}

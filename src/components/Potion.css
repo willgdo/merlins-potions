@@ -1,0 +1,26 @@
+.Images {
+    width: 100%;
+    margin-top: 50px;
+}
+
+figure {
+    text-align: center;
+}
+
+.Potions {
+    float: left;
+    width: 33%;
+    margin-bottom: 100px;
+}
+
+figcaption {
+    font-weight: bold;
+}
+
+span {
+    color: red;
+}
+
+.Potions-Image, figcaption {
+   cursor: pointer;
+}
