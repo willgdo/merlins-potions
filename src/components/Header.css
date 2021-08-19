@@ -67,8 +67,7 @@ input:focus {
     color: var(--main-text-red-color);
 }
 
-
-@media (max-width: 900px) {
+@media (max-width: 999px) {
     .header {
         width: 100%;
         margin-left: 0;

@@ -10,8 +10,8 @@ import './App.css';
   return (
     <Fragment>
       <Header />
-      {/* <Menu />
-      <Main />
+      <Menu />
+      {/* <Main />
       <Footer/> */}
     </Fragment>
   );

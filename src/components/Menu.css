@@ -1,58 +1,80 @@
-.Menu {
+.menu {
     background-color: #523468;
-    width: 100%;
     height: 100px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
-.Nav-Menu {
+.wrapper-menu {
     margin-left: 5%;
     width: 70%;
-    float: left;
-    margin-top: 40px;
-
 }
 
-nav a {
+.login {
+    width:20%;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-menu a {
     font-size: 1.2em;
-    color: #fff;
-    padding: 10px 50px;
     text-decoration: none;
+    color: #fff;
+    margin-left: 25px;
     border-radius: 5px;
     font-style: italic;
+    margin-top: 30px;
 }
 
-nav a:hover {
-   background-color: #422A53;    
+.clearance {
+    padding: 10px 20px;
+    background-color: #422A53;
 }
 
-nav span{
-    color: #fff;
-    font-size: 0.8em;  
+.nav-menu a:hover {
+   text-decoration: underline;    
 }
 
-.Login {
-    width:20%;
-    float: right;
-    margin-top: 40px;
-    padding-right: 40px;
-}
-
-.Login div{
+.enter {
     font-size: 1.2em;
     color: #fff;
-    float: left;
-    margin-right: 20px;
+    margin-top: 40px;
     font-style: italic;
+    float: right;
 }
 
-.Enter {
+.enter a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.enter a:first-child{
+    margin-right: 20px;
+}
+
+.enter a:last-child{
+    margin-left: 20px;
+}
+
+.enter a:hover {
+    text-decoration: underline;
     cursor: pointer;
 }
 
-.Enter:hover {
-    text-decoration: underline;
+.login span {
+    color: #c3aada;
 }
 
-.Login span {
-    color: #c3aada;
+@media (max-width: 999px) {
+    .menu {
+        display: none;
+    }
 }

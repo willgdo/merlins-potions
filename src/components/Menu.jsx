@@ -3,21 +3,22 @@ import "./Menu.css";
 
 export const Menu = () => {
   return (
-    <div className="Menu">
-      <div class="Nav-Menu">
-        <nav>
-          <a href="/">Potions <span>▼</span></a>
-          <a href="/">Ingredients <span>▼</span></a>
-          <a href="/">Books <span>▼</span></a>
-          <a href="/">Suppliers <span>▼</span></a>
-          <a href="/">Charms <span>▼</span></a>
-          <a href="/">Clearance!</a>
+    <div className="menu">
+      <div class="wrapper-menu">
+        <nav class="nav-menu">
+          <a href="/">Potions▼</a>
+          <a href="/">Ingredients▼</a>
+          <a href="/">Books▼</a>
+          <a href="/">Suppliers▼</a>
+          <a href="/">Charms▼</a>
+          <a class="clearance"href="/">Clearance!</a>
         </nav>
-      </div>
-      <div className="Login">
-        <div class="Enter">Sign In</div>
-        <div><span>or</span></div>
-        <div class="Enter">Sign Up</div>
+      </div>   
+      <div className="login">
+        <div class="enter">
+          <a href="/">Sign In</a> 
+          <span>or</span> 
+          <a href="/">Sign Up</a></div>
       </div>
       
     </div>
